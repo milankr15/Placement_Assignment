@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.tictactoe {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.tictactoe h1 {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  padding: 20px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 20px;
+}
+
+.cell:hover {
+  background-color: #e1e1e1;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e1e1e1;
+}

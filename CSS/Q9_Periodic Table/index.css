@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align:center;
+    margin: 50px;
+}
+
+.periodic-table{
+    width: 950px;
+    display:flex;
+    flex-direction: column;
+    margin: auto
+}
+
+.element{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    color:white;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.coloumn{
+    display: flex;
+}
+
+.star{
+    padding:10px;
+}
+
+.lanthanides{
+    margin-left: 122px;
+    margin-top: 50px;
+}
+
+.actinides{
+    margin-left: 114px;
+}
+
+/* Alakali Metal */
+.am{
+    background-color: rgb(233, 75, 88);
+}
+
+/* Alkaline Earth Metal */
+.aem{
+    background-color: rgb(99, 50, 60);
+}
+
+/* Transition Metal */
+.tm{
+    background-color: rgb(68,59,104);
+}
+
+/* Post Transition Metal */
+.ptm{
+    background-color: rgb(44,78,74);
+}
+
+/* Metalloid */
+.md{
+    background-color: rgb(82,62,29);
+}
+
+/* Reactive Non-metal */
+.rnm{
+    background-color: rgb(42,64,101);
+}
+
+/* Noble Gas */
+.ng{
+    background-color: rgb(99,56,66);
+}
+
+/* Lanthanides */
+.ln{
+    background-color: rgb(0,76,115);
+}
+
+/* Actinides */
+.an{
+    background-color: rgb(98,58,39);
+}
+
+/* Unknown Properties */
+.up{
+    background-color: rgb(72,70,75);
+}
+
+.boxes{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    display:flex;
+    gap:10px;
+}
+
+.box{
+    width: 20px;
+    height:20px;
+}

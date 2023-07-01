@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 20px;
+}
+
+.blocks{
+    border: 2px solid black;
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+}
+
+.block-r, .block-g, .block-b{
+    width: 200px;
+    height: 200px;
+}
+
+.block-r{
+    background-color: red;
+}
+
+.block-g{
+    background-color: green;
+}
+
+.block-b{
+    background-color: blue;
+    color: white;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 50px;
+    left: 70px
+}
+
+
+.absolute{
+    position: absolute;
+    top: 700px;
+    left: 300px
+}
+
+.relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 600px;
+    left: 100px;
+}
+

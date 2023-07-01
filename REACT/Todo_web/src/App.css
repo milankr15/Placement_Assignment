@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.block{
+  border: 2px solid black;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.block input{
+  padding: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.block .add-button{
+  padding: 5px;
+}
+
+.block .delete-button{
+  padding: 5px;
+
+  margin: 0 10px;
+}
